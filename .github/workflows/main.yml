@@ -4,9 +4,9 @@ on:
   push:
   pull_request:
   workflow_dispatch:
-  schedule:
+  #schedule:
     #  # This job runs at 00:00 on Friday.
-    - cron: '0 15 * * 5'
+   # - cron: '0 15 * * 5'
 
 jobs:
   ruby-versions:
